@@ -7,10 +7,11 @@ using namespace std;
 
 class Node {
 public:
-  bool visited;
-  bool printed;
   char value;
   vector<Node*> nodes;
+
+  bool visited;
+  bool printed;
 
   Node(char v) {
     visited = printed = false;
